@@ -1,0 +1,19 @@
+//Countup Start to n & n to start
+// calling i=index from i---n+n-1
+
+
+
+
+function CountUpDown(n){
+  console.log("going Up!");
+  for (let i=0; i<=n; i++){
+    console.log (i);
+  }
+console.log(" At the top!\nGoing Down...")
+for (let j=n-1; j>=0; j--){
+  console.log(j);
+}
+  console.log("backToDOWn.Bye!");
+}
+
+CountUpDown(10);
