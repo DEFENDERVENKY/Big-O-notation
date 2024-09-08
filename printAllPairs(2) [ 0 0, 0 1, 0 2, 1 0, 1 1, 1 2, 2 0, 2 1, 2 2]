@@ -2,13 +2,13 @@
 printAllPairs
 
 function printAllPairs(n){
-  for(let i = 0 ; i <= n ; i++){
-    for(let j = 0; j <= n; j++){
+0(n)| for(let i = 0 ; i <= n ; i++){
+0(n)| for(let j = 0; j <= n; j++){
       console.log(i,j);
     }
   }
 }
-printAllPairs(5)
+printAllPairs(5)    [Time complacity 0(n * n)
 
 // output
 
